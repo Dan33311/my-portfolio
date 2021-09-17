@@ -1,6 +1,13 @@
+import laptopImage from '../img/laptop.svg'
+import foodImage from '../img/food.png'
+import marioImage from '../img/mario.png'
+import marmiteImage from '../img/marmite.png'
+import notesImage from '../img/notes.png'
+
 const ShinobiDesigns = () => {
   return (  
     <div>
+      <h2>Test</h2>
       {/* navbar */}
       <nav className="navbar justify-between">
         <div className="container">
@@ -24,7 +31,8 @@ const ShinobiDesigns = () => {
             <a href="/work" className="btn-outlined-secondary text-secondary text-hover-white">View Our Work</a>
           </div>
           <div className="col-12-xs col-5-md">
-            <img src="/img/laptop.svg" alt=""/>
+            {/* <img src="/img/laptop.svg" alt=""/> */}
+            <img src={laptopImage} alt="laptop"/>
           </div>
         </div>
       </div>
@@ -46,28 +54,28 @@ const ShinobiDesigns = () => {
             <div className="col-12-xs col-6-md col-3-lg">
               <div className="card p-0">
                 <h3 className="card-title m-1">Mario Club</h3>
-                <img src="/img/mario.png" alt=""/>
+                <img src={marioImage} alt="mario"/>
                 <p className="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
               </div>
             </div>
             <div className="col-12-xs col-6-md col-3-lg">
               <div className="card p-0">
                 <h3 className="card-title m-1">Ninja Food</h3>
-                <img src="/img/food.png" alt=""/>
+                <img src={foodImage} alt="food"/>
                 <p className="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
               </div>
             </div>
             <div className="col-12-xs col-6-md col-3-lg">
               <div className="card p-0">
                 <h3 className="card-title m-1">Just Add Marmite</h3>
-                <img src="/img/marmite.png" alt=""/>
+                <img src={marmiteImage} alt="marmite"/>
                 <p className="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
               </div>
             </div>
             <div className="col-12-xs col-6-md col-3-lg">
               <div className="card p-0">
                 <h3 className="card-title m-1">Ninja Notes</h3>
-                <img src="/img/notes.png" alt=""/>
+                <img src={notesImage} alt="notes"/>
                 <p className="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
               </div>
             </div>

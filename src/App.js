@@ -1,10 +1,12 @@
 import './App.css';
 import Test from "./components/Test"
+import ShinobiDesigns from './components/ShinobiDesigns';
 
 function App() {
   return (
     <div className="App">
-      <Test></Test>
+      {/* <Test></Test> */}
+      <ShinobiDesigns></ShinobiDesigns>
     </div>
   );
 }
