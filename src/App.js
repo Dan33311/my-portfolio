@@ -1,5 +1,5 @@
 import './App.css';
-import Test from "./components/Test"
+// import Test from "./components/Test"
 import ShinobiDesigns from './components/ShinobiDesigns';
 
 function App() {

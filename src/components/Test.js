@@ -3,7 +3,7 @@ const Test = () => {
     <div>
       <h2>Test Element (for testing use this element)</h2>
 
-      <nav className="navbar-primary text-white mb-4">
+      <nav className="navbar text-white mb-4">
         <div className="container">
           <h2 className="site-title">Shinobi CSS</h2>
           <p>A lightweight CSS library for dev ninjas</p>
@@ -85,7 +85,7 @@ const Test = () => {
         <h2 className="mb-2">Cards</h2>
         <div className="card">
           <h1 className="card-title">This is a title</h1>
-          <p className="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias similique, dolores blanditiis eligendi aspernatur ipsa cupiditate ullam ducimus quia ad quo quidem, illum pariatur a excepturi. Ducimus, qui pariatur <a href="#">itaque deleniti</a> veniam cumque deserunt ipsum iste nulla odit explicabo tenetur!</p>
+          <p className="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias similique, dolores blanditiis eligendi aspernatur ipsa cupiditate ullam ducimus quia ad quo quidem, illum pariatur a excepturi. Ducimus, qui pariatur <a href="/">itaque deleniti</a> veniam cumque deserunt ipsum iste nulla odit explicabo tenetur!</p>
         </div>
 
         <hr className="mt-4 mb-4"></hr>

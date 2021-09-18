@@ -7,7 +7,7 @@ import notesImage from '../img/notes.png'
 const ShinobiDesigns = () => {
   return (  
     <div>
-      <h2>Test</h2>
+      {/* <h2>Test text</h2> */}
       {/* navbar */}
       <nav className="navbar justify-between">
         <div className="container">
