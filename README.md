@@ -1,3 +1,10 @@
+# My notes
+This projects is using React, my sass library and Gulp.
+Only used for test the interaction between react, my sass library(The net Ninja Tutorial) and gulp
+`npm start`
+For changes in styles use command `gulp`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
